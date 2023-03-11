@@ -2,6 +2,7 @@
 #Django CRUD Project (Create, Retrieve, Update, Delete)
 ![image](https://user-images.githubusercontent.com/95019541/224480083-98240834-3ec8-4d7a-af50-20fce9688576.png)
 ##Features of Project:-
+
 1.Create – create or add new entries in a table in the database. 
 
 2.Retrieve – read, retrieve, search, or view existing entries as a list(List View) or retrieve a particular entry in detail (Detail View) 
