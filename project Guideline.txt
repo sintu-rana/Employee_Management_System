@@ -1,0 +1,35 @@
+Django CRUD Project (Create, Retrieve, Update, Delete)
+
+Create – create or add new entries in a table in the database. 
+Retrieve – read, retrieve, search, or view existing entries as a list(List View) or retrieve a particular entry in detail (Detail View) 
+Update – update or edit existing entries in a table in the database 
+Delete – delete, deactivate, or remove existing entries in a table in the database
+
+
+How to Render the project in Our Laptop/PC.
+Open V.S code 
+And go to new Terminal :-
+
+Step1.Activate virtual Environment
+cmd-venv\scripts\activate
+
+Step2-Install Pillow 
+cmd-pip install Pillow
+cmd-python manage.py collectstatic
+
+Step3-Databse using db-sqlite3
+cmd-python manage.py makemigrations
+cmd-python manage.py migrate
+
+Step4-Finally you are able to run of Crud project.
+cmd-python manage.py runserver
+
+
+
+
+cmd-pip freeze
+asgiref==3.6.0
+Django==4.1.7
+Pillow==9.4.0
+sqlparse==0.4.3
+tzdata==2022.7
